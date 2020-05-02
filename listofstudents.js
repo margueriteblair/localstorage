@@ -2,8 +2,8 @@ let newstudentNames = [];
 
 
 function addStudentName() {
-    let oldArrayNames = JSON.parse(localStorage.getItem('sNames'));
-    newstudentNames.push(document.getElementById("name").value)
+    // let oldArrayNames = JSON.parse(localStorage.getItem('sNames'));
+    // newstudentNames.push(document.getElementById("name").value)
 
     let studentNames = oldArrayNames.concat(newstudentNames);
     document.getElementById("name").value = "";
