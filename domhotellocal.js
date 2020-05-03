@@ -26,8 +26,11 @@ function updateAvailableRooms() {
     localStorage.setItem("RoomValue", roomValue_serialized); 
     for (let i = 0; i < roomsAvailable.length; i++) {
     roomsAvailable.splice(roomsAvailable.indexOf(roomsAvailable[i]),1);
+    document.getElementById("showRooms").innerText = localStorage.getItem("RoomValue")
     }
 }
+
+
 
 
 //use getItem to retrieve an item once a corresponding key has been declared
