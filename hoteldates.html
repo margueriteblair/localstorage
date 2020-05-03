@@ -6,19 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id = "header"></h1>
-    <h2 id = "slogan"></h2>
-
-    <p id = "instructions"></p>
-    <div>
-        <p>Check In Date:</p>
-        <input type = "date" placeholder="Start Date"> 
-        <p>Check Out Date:</p>
-        <input type="date" placeholder="End Date">
-    </div>
-
-    <p id = "dropdown"></p>
-
+​
+    <header>
+        <h1 id= "hotelName"></h1>
+        <h4 id= "hotelSlogan"></h4>
+    </header>
+​
+    <input type = 'date' id ='checkInDate' value='Enter Check In Date'>
+​
+    <input type = 'date' id ='checkOutDate' value='Enter Check Out Date'> <br>
+    <button onclick = 'updateDates()'>Add Dates</button>
+    <p id ='checkIn'></p>
+    <p id ='checkOut'></p>
+​
     <script src="hoteldates.js"></script>
 </body>
 </html>
